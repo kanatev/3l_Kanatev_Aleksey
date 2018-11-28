@@ -128,4 +128,4 @@ struct Truck { // описание грузового автомобиля
 }
 print("\nСоздаем свой конструктор для структуры Truck, и делаем последние 4 свойства опциональными. Добавляем проверку guard на год выпуска не старше 2015")
 let truck1 = Truck(carBrand: "MAN", releaseYear: 2017)
-print("\nВыводим в консоль содержимое экземпляра структуры Truck (truck1): \(String(describing: truck1)).\n")
+print("\nВыводим в консоль содержимое экземпляра структуры Truck (truck1): \(String(describing: truck1)). \n")
